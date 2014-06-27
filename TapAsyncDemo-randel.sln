@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapAsyncDemo-randel", "TapAsyncDemo-randel\TapAsyncDemo-randel.csproj", "{589F929E-45F0-4B98-8D3C-043B41CD2D01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{599D2ECA-79D6-46FC-86D2-C52873F9990F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeWebServices", "FakeWebServices\FakeWebServices.csproj", "{3D6F812B-902F-40CA-AB61-31D7B3EB7D73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{589F929E-45F0-4B98-8D3C-043B41CD2D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589F929E-45F0-4B98-8D3C-043B41CD2D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589F929E-45F0-4B98-8D3C-043B41CD2D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589F929E-45F0-4B98-8D3C-043B41CD2D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6F812B-902F-40CA-AB61-31D7B3EB7D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6F812B-902F-40CA-AB61-31D7B3EB7D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6F812B-902F-40CA-AB61-31D7B3EB7D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6F812B-902F-40CA-AB61-31D7B3EB7D73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D6F812B-902F-40CA-AB61-31D7B3EB7D73} = {599D2ECA-79D6-46FC-86D2-C52873F9990F}
+	EndGlobalSection
+EndGlobal
